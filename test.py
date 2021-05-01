@@ -1,2 +1,1 @@
-print("Yeo mama")
-print("Hello World")
+print("Nyeahh ehh RUHacks Gang2021")
