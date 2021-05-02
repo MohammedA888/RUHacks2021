@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>268453-Best_Running_Shoes_for_Flat_Feet-1296x728-header-1296x728.jpg</filename>
+	<path>C:\Users\mohdd\models\research\object_detection\images\train\268453-Best_Running_Shoes_for_Flat_Feet-1296x728-header-1296x728.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1155</width>
+		<height>648</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>408</xmin>
+			<ymin>203</ymin>
+			<xmax>1009</xmax>
+			<ymax>603</ymax>
+		</bndbox>
+	</object>
+</annotation>

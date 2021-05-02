@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>61EoOVZcTFL._AC_UX695_.jpg</filename>
+	<path>C:\Users\mohdd\models\research\object_detection\images\train\61EoOVZcTFL._AC_UX695_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>695</width>
+		<height>490</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shoes</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>71</ymin>
+			<xmax>687</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+</annotation>

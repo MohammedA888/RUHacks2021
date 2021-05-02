@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>Nike-Zoom-Freak-1-What-The-1-e1608753680833.jpg</filename>
+	<path>C:\Users\mohdd\models\research\object_detection\images\test\Nike-Zoom-Freak-1-What-The-1-e1608753680833.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>700</width>
+		<height>388</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shoes</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>16</ymin>
+			<xmax>700</xmax>
+			<ymax>373</ymax>
+		</bndbox>
+	</object>
+</annotation>
