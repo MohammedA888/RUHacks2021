@@ -1,19 +1,19 @@
 import RPi.GPIO as GPIO          
 from time import sleep
 
-in1 = 11
-in2 = 12
-en = 25
+in1 = 13
+in2 = 15
+#en = 25
 temp1=1
 
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(in1,GPIO.OUT)
 GPIO.setup(in2,GPIO.OUT)
-GPIO.setup(en,GPIO.OUT)
+#GPIO.setup(en,GPIO.OUT)
 GPIO.output(in1,GPIO.LOW)
 GPIO.output(in2,GPIO.LOW)
-p=GPIO.PWM(en,1000)
+#p=GPIO.PWM(en,1000)
 p.start(25)
 print("\n")
 print("The default speed & direction of motor is LOW & Forward.....")
