@@ -13,6 +13,7 @@ y=0
 
 try:
    while(1):
+      GPIO.cleanup()
       color = input("Enter the motor color: ")
       if color == "orange":
           out1 = 32
@@ -43,8 +44,7 @@ try:
       GPIO.output(out3,GPIO.LOW)
       GPIO.output(out4,GPIO.LOW)
 
-
-      x = int(input("Enter Rotation Steps"))
+      x = int(input("Enter Rotation Steps: "))
       if x>0 and x<=400:
           for y in range(x,0,-1):
               if negative==1:
