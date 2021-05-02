@@ -13,7 +13,6 @@ y=0
 
 try:
    while(1):
-      GPIO.cleanup()
       color = input("Enter the motor color: ")
       if color == "orange":
           out1 = 32
@@ -116,7 +115,8 @@ try:
                   i=0
                   continue
               i=i+1
-      
+            
+            GPIO.cleanup()
       
       elif x<0 and x>=-400:
           x=x*-1
@@ -190,6 +190,8 @@ try:
                   i=7
                   continue
               i=i-1 
+              
+            GPIO.cleanup()
 
               
 except KeyboardInterrupt:
