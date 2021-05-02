@@ -115,9 +115,7 @@ try:
                   i=0
                   continue
               i=i+1
-            
-            GPIO.cleanup()
-      
+      GPIO.cleanup()
       elif x<0 and x>=-400:
           x=x*-1
           for y in range(x,0,-1):
@@ -190,9 +188,7 @@ try:
                   i=7
                   continue
               i=i-1 
-              
-            GPIO.cleanup()
-
+      GPIO.cleanup()
               
 except KeyboardInterrupt:
     GPIO.cleanup()
