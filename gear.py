@@ -6,7 +6,6 @@ in2 = 12
 en = 25
 temp1=1
 
-raw_input = 'r'
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(in1,GPIO.OUT)
@@ -22,7 +21,7 @@ print("r-run s-stop f-forward b-backward l-low m-medium h-high e-exit")
 print("\n")    
 
 while(1):
-    x=raw_input()
+    x = input()
     
     if x=='r':
         print("run")
