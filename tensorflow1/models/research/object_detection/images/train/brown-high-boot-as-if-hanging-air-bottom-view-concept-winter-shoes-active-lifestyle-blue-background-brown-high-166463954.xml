@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>brown-high-boot-as-if-hanging-air-bottom-view-concept-winter-shoes-active-lifestyle-blue-background-brown-high-166463954.jpg</filename>
+	<path>C:\Users\mohdd\models\research\object_detection\images\train\brown-high-boot-as-if-hanging-air-bottom-view-concept-winter-shoes-active-lifestyle-blue-background-brown-high-166463954.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1155</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>163</xmin>
+			<ymin>67</ymin>
+			<xmax>1255</xmax>
+			<ymax>829</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>61i+QTe931L._AC_UL1050_.jpg</filename>
+	<path>C:\Users\mohdd\models\research\object_detection\images\train\61i+QTe931L._AC_UL1050_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1004</width>
+		<height>1050</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shoes</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>14</ymin>
+			<xmax>1004</xmax>
+			<ymax>1043</ymax>
+		</bndbox>
+	</object>
+</annotation>
