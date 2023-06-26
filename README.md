@@ -12,7 +12,13 @@ The robot scans the area using a camera, then using AI it checks if there is a S
 
 We used 3 Stepper Motors, to control the arms of the robot allowing it to elevate up and down, turn left and right, and rotate forwards and backwards. We created an arm that can move with 5 degrees of freedom in 3D Space. Then we used 2 DC motors to control the "Wrist" of the arms to turn the ramp that holds the shoe into place, and the other DC motor to move the shoe off the ramp using a treadmill like system. We used a camera system that we trained using Neural Networks to recognize the left and right shoe, along with the sole. Also we used the camera to figure the approximate distance from the shoe so the motors may turn accordingly to reach the shoe. We have 2 sensors that check for whether or not the current shoe rack is being occupied, and if it is not then we tell the motor to move up down left or right depending on availability. We ran the entire system through Raspberry Pi 3 Model B and coded it using Python.
 
-## Sample Drawings
+
+## Demo Video
+
+<iframe width="786" height="556" src="https://www.youtube.com/embed/YLyF9gJMwVE" title="RUHacks2021 | Pick My Shoe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Sample Training Pictures
 
 ## Shoe Example 1 - 120°
 
@@ -37,7 +43,7 @@ We are extremely proud of the fact that we were able to get all the motors to tu
 
 To procure better materials in order to distribute the weight of the system better, because it was unable to hold near the end.
 
-## What's next for Parkinson Test
+## What's next for Home Servant Bot
 
 We are going to continue working on this project as a Summer Project for the 4 of us since we are extremely ambitious about what we can accomplish with this. We are going to 3D print the entire system better, and train the CNN for longer so that we will have a fully running system that we will hopefully use if made compact.
 
