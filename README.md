@@ -14,13 +14,13 @@ We used 3 Stepper Motors, to control the arms of the robot allowing it to elevat
 
 ## Sample Drawings
 
-## Spiral Drawings - Healthly
+## Shoe Example 1 - 120°
 
-![Shoe Example 1](https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/1587065460-Mens-193-Royale-TripleBlack-3RBW-Product-102_987ae47c-343a-4a46-9902-2f233bd5452c.jpg)
+<img src="https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/1587065460-Mens-193-Royale-TripleBlack-3RBW-Product-102_987ae47c-343a-4a46-9902-2f233bd5452c.jpg" alt="Shoe Example 1" width="600" height="700">
 
-## Spiral Drawings - Parkinson Affected
+## Shoe Example 1 - 240°
 
-![Shoe Example 2](https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/84bbb268364a43cb9766b5aeb71901b9.jpg)
+<img src="https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/84bbb268364a43cb9766b5aeb71901b9.jpg" alt="Shoe Example 2" width="600" height="700">
 
 
 ## Challenges we ran into
