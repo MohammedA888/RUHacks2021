@@ -2,54 +2,45 @@
 
 ## Inspiration
 
-Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty with walking, balance, and coordination. Parkinson's symptoms usually begin gradually and get worse over time. As the disease progresses, people may have difficulty walking and talking. And we are in the COVID-19 time when people can't go to the hospitals because it is almost full and they are afraid of getting COVID-19 without mentioning how much they can be afraid if they doubt that they have Parkinson's disease
+As lazy university students we never put our shoes away properly when we get home, this causes our parents (especially mom) to get angry because its messy and dangerous. To solve this issue we created an AI/Robot system that checks when a shoe is taken off and then proceeds to place it into the shoe rack for you.
 
 ## What it does
 
-Our website will help people overcome Parkinson's fright! They just need to draw a spiral and/or a wave on paper, then take a photo, upload it to our app, and our machine learning model will predict whether they have it or not! They can also directly draw the spiral or wave on the website
+The robot scans the area using a camera, then using AI it checks if there is a SHOE on the mat then checks if there is space on the shoe rack (using Ultrasonic Distance Sensors), then proceeds to use a combination of DC and Stepper Motors to pick the shoes up and place it into the shoe rack.
 
 ## How we built it
 
-Considering the COVID scenario we wanted to make the diagnosis simple, where to detect the presence of Parkinson's disease, the person is supposed to upload two images where he or she had drawn a wave and a spiral based on which the detection occurs. These are some of the example images on which the model is being trained and tested.
+We used 3 Stepper Motors, to control the arms of the robot allowing it to elevate up and down, turn left and right, and rotate forwards and backwards. We created an arm that can move with 5 degrees of freedom in 3D Space. Then we used 2 DC motors to control the "Wrist" of the arms to turn the ramp that holds the shoe into place, and the other DC motor to move the shoe off the ramp using a treadmill like system. We used a camera system that we trained using Neural Networks to recognize the left and right shoe, along with the sole. Also we used the camera to figure the approximate distance from the shoe so the motors may turn accordingly to reach the shoe. We have 2 sensors that check for whether or not the current shoe rack is being occupied, and if it is not then we tell the motor to move up down left or right depending on availability. We ran the entire system through Raspberry Pi 3 Model B and coded it using Python.
 
 ## Sample Drawings
 
 ## Spiral Drawings - Healthly
 
-![Sample Spiral Drawings for Health Inviduals](https://res.cloudinary.com/devpost/image/fetch/s--25ESGrLy--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/49975886/116790798-e2832900-aad3-11eb-97eb-1ab8e877a148.png)
+![Shoe Example 1](https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/1587065460-Mens-193-Royale-TripleBlack-3RBW-Product-102_987ae47c-343a-4a46-9902-2f233bd5452c.jpg)
 
 ## Spiral Drawings - Parkinson Affected
 
-![Sample Spiral Drawings for Parkinson-Affected Inviduals](https://res.cloudinary.com/devpost/image/fetch/s--z4ub3uyP--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/49975886/116790830-15c5b800-aad4-11eb-83d7-2aa801898847.png)
+![Shoe Example 2](https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/84bbb268364a43cb9766b5aeb71901b9.jpg)
 
-## Waves Drawings - Healthly
-
-![Sample Waves Drawings for Health Inviduals](https://res.cloudinary.com/devpost/image/fetch/s--25ESGrLy--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/49975886/116790798-e2832900-aad3-11eb-97eb-1ab8e877a148.png)
-
-## Waves Drawings - Parkinson Affected
-
-![Sample Spiral Drawings for Parkinson-Affected Inviduals](https://res.cloudinary.com/devpost/image/fetch/s--z4ub3uyP--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/49975886/116790830-15c5b800-aad4-11eb-83d7-2aa801898847.png)
-
-## How we built it
-
-We used DCP for searching hyperparameter space for an optimal set then using TensorFlow python API we trained our model with chosen hyperparameter then we export it to tensorflow.js and deployed it on google cloud using Cloud APIgei and in the frontend, we used rest API to access it. We also deployed our react frontend to Firebase.
 
 ## Challenges we ran into
 
-We had less time and working in a remote environment with new teammates was a little bit hard, but finally, we make it.
+Due to time constraints it was extremely difficult to train the neural networks really well. Another complication we ran into because of time was that we weren't able to 3D print a proper ramp to fit the shoe onto it. Near the end due to us running the circuit for a extended period of time (to record) the final step of the robot was unable to work due to circuit shorting. Due to COVID-19 it was hard to gather ALL the parts needed to run this exactly how we wanted to.
 
-## Model loss and accuracy curves.
 
-![Model Loss and Accuracy Waves](https://res.cloudinary.com/devpost/image/fetch/s--4OMJ60G---/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/507/711/datas/small.png)
+## Accomplishments that we're proud of
+
+We are extremely proud of the fact that we were able to get all the motors to turn and compact it into a small design. We were able to connect all the circuits through a color coded system that we were able to utilize really well. We are also proud of using the CNN to train the program to recognize shoes only, since we have never worked with Neural Networks this was huge for us. We are also really proud of using Raspberry Pi for the first time in connection with the motors and the entire system. Also because it was Ramadan, we were limited to time because 2 of our 4 members partake in fasting and were fatigued throughout the day alone with having to gather with family and eat dinner after the sunset.
+
 
 ## What we learned
 
-We learned teamwork, working remotely with great individuals we have never met before, starting from the ideation stage where we had to agree and disagree as a team over the idea to work on. And later on, learning a lot of new things about the technologies we used.
+To procure better materials in order to distribute the weight of the system better, because it was unable to hold near the end.
 
 ## What's next for Parkinson Test
 
-We want to improve our model accuracy and achieve the best result we can. Maybe we will work with other diseases and make it an online diagnosis for multiple diseases.
+We are going to continue working on this project as a Summer Project for the 4 of us since we are extremely ambitious about what we can accomplish with this. We are going to 3D print the entire system better, and train the CNN for longer so that we will have a fully running system that we will hopefully use if made compact.
 
 ## Built With
 
-Distributed Computer Platform, Google Cloud Platform, Firebase, Python, Tensowflow, React
+C++, Python, TensorFlow, Raspberry Pi
