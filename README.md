@@ -24,7 +24,7 @@ We used 3 Stepper Motors, to control the arms of the robot allowing it to elevat
 
 <img src="https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/1587065460-Mens-193-Royale-TripleBlack-3RBW-Product-102_987ae47c-343a-4a46-9902-2f233bd5452c.jpg" alt="Shoe Example 1" width="400" height="500">
 
-## Shoe Example 1 - 240°
+## Shoe Example 2 - 240°
 
 <img src="https://github.com/MohammedA888/RUHacks2021/blob/main/CNN%20Training%20Dataset/84bbb268364a43cb9766b5aeb71901b9.jpg" alt="Shoe Example 2" width="400" height="500">
 
