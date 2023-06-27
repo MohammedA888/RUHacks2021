@@ -1,4 +1,4 @@
-# Home Servant Bot
+# Pick My Shoe
 
 ## Inspiration
 
@@ -15,7 +15,7 @@ We used 3 Stepper Motors, to control the arms of the robot allowing it to elevat
 
 ## Demo Video
 
-[![Home Servant Bot](https://github.com/MohammedA888/RUHacks2021/blob/main/RU%20Hacks%20Image.png)](https://www.youtube.com/watch?v=YLyF9gJMwVE)
+[![Pick My Shoe](https://github.com/MohammedA888/RUHacks2021/blob/main/RU%20Hacks%20Image.png)](https://www.youtube.com/watch?v=YLyF9gJMwVE)
 
 
 ## Sample Training Pictures
@@ -43,7 +43,7 @@ We are extremely proud of the fact that we were able to get all the motors to tu
 
 To procure better materials in order to distribute the weight of the system better, because it was unable to hold near the end.
 
-## What's next for Home Servant Bot
+## What's next for Pick My Shoe
 
 We are going to continue working on this project as a Summer Project for the 4 of us since we are extremely ambitious about what we can accomplish with this. We are going to 3D print the entire system better, and train the CNN for longer so that we will have a fully running system that we will hopefully use if made compact.
 
