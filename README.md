@@ -15,7 +15,7 @@ We used 3 Stepper Motors, to control the arms of the robot allowing it to elevat
 
 ## Demo Video
 
-<iframe width="786" height="556" src="https://www.youtube.com/embed/YLyF9gJMwVE" title="RUHacks2021 | Pick My Shoe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Home Servant Bot](https://github.com/MohammedA888/RUHacks2021/blob/main/RU%20Hacks%20Image.png)](https://www.youtube.com/watch?v=YLyF9gJMwVE)
 
 
 ## Sample Training Pictures
